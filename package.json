@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A youtube clone backend ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "Javascript",
@@ -12,5 +13,8 @@
     "Hritik"
   ],
   "author": "Hritik Gautam",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
